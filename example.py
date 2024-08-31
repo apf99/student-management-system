@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import QApplication, QVBoxLayout, QLabel, QWidget, QGridLayout, QLineEdit, QPushButton
+from PyQt6.QtWidgets import QApplication, QLabel, QWidget, QGridLayout, QLineEdit, QPushButton
 
 
 import sys
@@ -44,4 +44,3 @@ app = QApplication(sys.argv)
 age_calculator = AgeCalculator()
 age_calculator.show()
 sys.exit(app.exec())
-
